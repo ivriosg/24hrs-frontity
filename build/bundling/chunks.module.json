@@ -1,0 +1,153 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "41b6fdde6ff141f0aba1",
+  "publicPath": "/static/",
+  "outputPath": "/Desarrollo/24hrs/build/static",
+  "assetsByChunkName": {
+    "24hrs": [
+      "24hrs.module.js",
+      "24hrs.380e6601cd0dbed30627.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "24hrs.380e6601cd0dbed30627.hot-update.js",
+      "size": 18402,
+      "chunks": [
+        "24hrs"
+      ],
+      "chunkNames": [
+        "24hrs"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "24hrs.module.js",
+      "size": 5010962,
+      "chunks": [
+        "24hrs"
+      ],
+      "chunkNames": [
+        "24hrs"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "380e6601cd0dbed30627.hot-update.json",
+      "size": 47,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/appstore.jpg",
+      "size": 2860,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/comscore-logo.jpg",
+      "size": 1838,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/feed.jpg",
+      "size": 2095,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/logotipo.png",
+      "size": 9194,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/moon.svg",
+      "size": 577,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/pressreader.jpg",
+      "size": 2688,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/screenshot.jpg",
+      "size": 7304,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/sun.svg",
+      "size": 828,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "24hrs": {
+      "chunks": [
+        "24hrs"
+      ],
+      "assets": [
+        "24hrs.module.js",
+        "24hrs.380e6601cd0dbed30627.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "24hrs": {
+      "chunks": [
+        "24hrs"
+      ],
+      "assets": [
+        "24hrs.module.js",
+        "24hrs.380e6601cd0dbed30627.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}
