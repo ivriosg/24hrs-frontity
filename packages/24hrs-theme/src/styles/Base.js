@@ -1,5 +1,6 @@
 import React from "react";
 import { connect, Global, css } from "frontity";
+import Title from "../assets/fonts/title-post.ttf";
 
 const Base = ({ state }) => {
   // Almacenamos variable para verificar si esta activado el Dark Mode
@@ -23,6 +24,13 @@ const Base = ({ state }) => {
           margin: 0;
           background-color: ${isDarkModeOn == true ? mainBlack : "white"};
           color: ${isDarkModeOn == true ? "white" : "black"};
+        }
+        @font-face {
+          font-family: "Title";
+          font-style: normal;
+          font-weight: normal;
+          font-display: fallback;
+          src: url("${Title}") format("truetype");
         }
         a {
           text-decoration: none;

@@ -1,6 +1,7 @@
 import React from "react";
 import { connect, styled, css } from "frontity";
 import Featured from "../components/Featured";
+import Base from "../styles/Base";
 
 const gray = "#F1F1F1";
 
@@ -10,6 +11,7 @@ const Post = ({ state }) => {
 
   return (
     <>
+      <Base />
       <PostContainer>
         <PostUpper>
           <span>Aquí va a ir la categoría</span>
@@ -52,18 +54,34 @@ const PostUpper = styled.div`
   background-color: ${gray};
   text-align: center;
   padding: 30px 0px 120px 0px;
-`;
-const PostDown = styled.div`
-  color: #222;
-  width: 66.666%;
-`;
-const PostSidebar = styled.div`
-  width: 33.333%;
+  & h1 {
+    font-family: Title;
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 74px;
+  }
 `;
 const PostContent = styled.div`
   width: 95%;
   display: flex;
   flex-direction: row;
   margin-top: -100px;
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
 }
 `;
+const PostDown = styled.div`
+  color: #222;
+  width: 66.666%;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+`;
+const PostSidebar = styled.div`
+  width: 33.333%;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+`;
+

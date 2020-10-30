@@ -2,19 +2,19 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "90d68bde75995c36fca1",
+  "hash": "32092e85e54837fd9a11",
   "publicPath": "/static/",
   "outputPath": "/Desarrollo/24hrs/build/static",
   "assetsByChunkName": {
     "24hrs": [
       "24hrs.module.js",
-      "24hrs.de84f88a878338a4196b.hot-update.js"
+      "24hrs.7b6916b1a72632b954e8.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "24hrs.de84f88a878338a4196b.hot-update.js",
-      "size": 23193,
+      "name": "24hrs.7b6916b1a72632b954e8.hot-update.js",
+      "size": 26490,
       "chunks": [
         "24hrs"
       ],
@@ -29,7 +29,7 @@
     },
     {
       "name": "24hrs.module.js",
-      "size": 5086550,
+      "size": 5092148,
       "chunks": [
         "24hrs"
       ],
@@ -40,7 +40,7 @@
       "emitted": false
     },
     {
-      "name": "de84f88a878338a4196b.hot-update.json",
+      "name": "7b6916b1a72632b954e8.hot-update.json",
       "size": 47,
       "chunks": [],
       "chunkNames": [],
@@ -48,6 +48,14 @@
         "hotModuleReplacement": true,
         "immutable": true
       },
+      "emitted": false
+    },
+    {
+      "name": "fonts/title-post.ttf",
+      "size": 34744,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
       "emitted": false
     },
     {
@@ -123,7 +131,7 @@
       ],
       "assets": [
         "24hrs.module.js",
-        "24hrs.de84f88a878338a4196b.hot-update.js"
+        "24hrs.7b6916b1a72632b954e8.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -136,7 +144,7 @@
       ],
       "assets": [
         "24hrs.module.js",
-        "24hrs.de84f88a878338a4196b.hot-update.js"
+        "24hrs.7b6916b1a72632b954e8.hot-update.js"
       ],
       "children": {},
       "childAssets": {}

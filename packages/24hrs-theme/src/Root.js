@@ -35,7 +35,6 @@ const FourBlock = styled.div`
   width: 33.333%;
 `;
 const ContainerBox = styled.div`
-  width: 1024px;
   display: flex;
   align-items: center;
   justify-content: center;
