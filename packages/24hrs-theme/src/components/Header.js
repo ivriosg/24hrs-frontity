@@ -33,10 +33,10 @@ export default connect(Header);
 
 // Estilo para la navegación
 const NavigationBar = styled.nav`
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 100%;
   background-image: radial-gradient(at center center, #cc0000 0%, #bb3033 70%);
   padding: 10px 0;
 `;

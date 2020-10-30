@@ -34,9 +34,11 @@ const Principales = ({ state, actions }) => {
                 </div>
               </FiveBlockLeft>
               <FiveBlockRight>
-                <Link href={post.link}>
-                  <Featured img_id={post.featured_media} />
-                </Link>
+                <div className="bordered">
+                  <Link href={post.link}>
+                    <Featured img_id={post.featured_media} />
+                  </Link>
+                </div>
               </FiveBlockRight>
             </FullBlock>
           </article>
@@ -58,7 +60,7 @@ const FullBlock = styled.div`
 `;
 const FiveBlockLeft = styled.div`
   width: 50%;
-  display-direction: column;
+  margin-right: 20px;
 `;
 const FiveBlockRight = styled.div`
   width: 50%;

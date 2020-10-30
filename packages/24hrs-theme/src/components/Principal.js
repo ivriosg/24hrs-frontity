@@ -17,18 +17,25 @@ const Principal = ({ state, actions }) => {
 
     return (
       <>
-        {posts.slice(0, 1).map((post) => ( 
-          <article key={post.id}>
+        {posts.slice(0, 1).map((post) => (
+          <article key={post.id} className="principal bordered">
             <Link href={post.link}>
               <h1
                 dangerouslySetInnerHTML={{ __html: post.title.rendered }}
               ></h1>
             </Link>
-            <p dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}></p>
-            <div>
+            <div
+              dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}
+              className="excerpt"
+            ></div>
+            <div className="meta">
               <span>POR: </span> - <span>FECHA</span>
             </div>
-            <Featured img_id={post.featured_media} />
+            <div className="border-bottom">
+              <Link href={post.link}>
+                <Featured img_id={post.featured_media} />
+              </Link>
+            </div>
           </article>
         ))}
       </>
