@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { connect, styled, css } from "frontity";
 import Base from "./styles/Base";
 import Header from "./components/Header";
-import Home from "./pages/Home";
+import Destacadas from "./components/Destacadas";
 import Footer from "./components/Footer";
 
 // Componentes Home
@@ -21,7 +21,8 @@ const Root = ({ state }) => {
           <Principales />
         </EightBlock>
         <FourBlock>
-          <p> Aquí estará la sidebar</p>
+          <span>Destacadas de hoy</span>
+          <Destacadas />
         </FourBlock>
       </MainSection>
 

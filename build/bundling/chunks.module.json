@@ -2,19 +2,19 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "41b6fdde6ff141f0aba1",
+  "hash": "3ba2c1df6236885e4e9d",
   "publicPath": "/static/",
-  "outputPath": "/Desarrollo/24hrs/build/static",
+  "outputPath": "/Users/ivriosg/Desarrollo/24hrs-frontity/build/static",
   "assetsByChunkName": {
     "24hrs": [
       "24hrs.module.js",
-      "24hrs.380e6601cd0dbed30627.hot-update.js"
+      "24hrs.62f0ad88dc04da5a356d.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "24hrs.380e6601cd0dbed30627.hot-update.js",
-      "size": 18402,
+      "name": "24hrs.62f0ad88dc04da5a356d.hot-update.js",
+      "size": 6555,
       "chunks": [
         "24hrs"
       ],
@@ -29,7 +29,7 @@
     },
     {
       "name": "24hrs.module.js",
-      "size": 5010962,
+      "size": 5024825,
       "chunks": [
         "24hrs"
       ],
@@ -40,7 +40,7 @@
       "emitted": false
     },
     {
-      "name": "380e6601cd0dbed30627.hot-update.json",
+      "name": "62f0ad88dc04da5a356d.hot-update.json",
       "size": 47,
       "chunks": [],
       "chunkNames": [],
@@ -123,7 +123,7 @@
       ],
       "assets": [
         "24hrs.module.js",
-        "24hrs.380e6601cd0dbed30627.hot-update.js"
+        "24hrs.62f0ad88dc04da5a356d.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -136,7 +136,7 @@
       ],
       "assets": [
         "24hrs.module.js",
-        "24hrs.380e6601cd0dbed30627.hot-update.js"
+        "24hrs.62f0ad88dc04da5a356d.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
