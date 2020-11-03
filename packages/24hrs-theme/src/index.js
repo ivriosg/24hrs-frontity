@@ -17,7 +17,7 @@ export default {
   },
   // Metodos que modifican el estado
   actions: {
-    theme: {
+    theme: { 
       // Configurando variables para prender y apagar el Dark Mode
       setDarkModeOn: ({state}) => {
         state.theme.isDarkModeOn = true;
