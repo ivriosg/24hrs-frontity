@@ -1,7 +1,9 @@
 import React from "react";
-import { connect, styled, css } from "frontity";
-import Featured from "../components/Featured";
+import { connect, styled } from "frontity";
+import Featured from "./common/Featured";
 import Base from "../styles/Base";
+import Autor from "./common/Autor";
+import moment from "moment";
 
 const gray = "#F1F1F1";
 
@@ -21,7 +23,12 @@ const Post = ({ state }) => {
             className="excerpt"
           ></div>
           <div className="meta">
-            <span>POR: </span> - <span>FECHA</span>
+            <span className="autor">
+              POR: <Autor aut_id={post.author} />
+            </span>
+            <span className="fecha">
+              {moment(post.date).locale("es").format("MMMM D, YYYY h:mm a")}
+            </span>
           </div>
         </PostUpper>
         <PostContent>
@@ -84,4 +91,3 @@ const PostSidebar = styled.div`
     width: 100%;
   }
 `;
-

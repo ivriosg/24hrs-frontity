@@ -1,9 +1,12 @@
 import React, { useEffect } from "react";
 import { connect, styled, css } from "frontity";
 import Link from "../components/Link";
-import Featured from "../components/Featured";
+import Featured from "./common/Featured";
+import Autor from "./common/Autor";
+import moment from "moment";
 
 const Principales = ({ state, actions }) => {
+  
   // Buscamos el último post publicado en la sección Carrousel
   useEffect(() => {
     actions.source.fetch("/category/platicas-de-cafe/");
@@ -37,8 +40,15 @@ const Principales = ({ state, actions }) => {
                 <p
                   dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}
                 ></p>
-                <div>
-                  <span>POR: </span> - <span>FECHA</span>
+                <div className="meta">
+                  <span className="autor">
+                    POR: <Autor aut_id={post.author} />
+                  </span>
+                  <span className="fecha">
+                    {moment(post.date)
+                      .locale("es")
+                      .format("MMMM D, YYYY h:mm a")}
+                  </span>
                 </div>
               </FiveBlockRight>
             </FullBlock>

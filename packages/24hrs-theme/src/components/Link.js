@@ -4,7 +4,7 @@ import { connect } from "frontity";
 const Link = ({ href, actions, children }) => {
   return (
     <a
-      href={href}
+      href={href} 
       onClick={(event) => {
         event.preventDefault();
         actions.router.set(href);
