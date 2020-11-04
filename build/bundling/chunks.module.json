@@ -2,34 +2,16 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "32092e85e54837fd9a11",
+  "hash": "cc142449f95ebd34eec3",
   "publicPath": "/static/",
-  "outputPath": "/Desarrollo/24hrs/build/static",
+  "outputPath": "/Users/ivriosg/Desarrollo/24hrs-frontity/build/static",
   "assetsByChunkName": {
-    "24hrs": [
-      "24hrs.module.js",
-      "24hrs.7b6916b1a72632b954e8.hot-update.js"
-    ]
+    "24hrs": "24hrs.module.js"
   },
   "assets": [
     {
-      "name": "24hrs.7b6916b1a72632b954e8.hot-update.js",
-      "size": 26490,
-      "chunks": [
-        "24hrs"
-      ],
-      "chunkNames": [
-        "24hrs"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
       "name": "24hrs.module.js",
-      "size": 5092148,
+      "size": 7339354,
       "chunks": [
         "24hrs"
       ],
@@ -37,17 +19,6 @@
         "24hrs"
       ],
       "info": {},
-      "emitted": false
-    },
-    {
-      "name": "7b6916b1a72632b954e8.hot-update.json",
-      "size": 47,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
       "emitted": false
     },
     {
@@ -130,8 +101,7 @@
         "24hrs"
       ],
       "assets": [
-        "24hrs.module.js",
-        "24hrs.7b6916b1a72632b954e8.hot-update.js"
+        "24hrs.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -143,8 +113,7 @@
         "24hrs"
       ],
       "assets": [
-        "24hrs.module.js",
-        "24hrs.7b6916b1a72632b954e8.hot-update.js"
+        "24hrs.module.js"
       ],
       "children": {},
       "childAssets": {}
